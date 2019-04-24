@@ -1,0 +1,33 @@
+:root{
+  --mainblue:#ffa400;
+  --mainBlue:#2a2a72;
+  --lightblue:#009ffd;
+  --mainwhite:#f3f3f3;
+  --maindark:#232528;
+  --mainyellow:#ffa400;
+}
+
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainwhite) !important;
+  color:var(--maindark) !important;
+}
+
+.btn-black{
+  background:transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem;
+  border:1px solid black!important;
+transition: all 3s ease!important;
+  border-radius:0!important;
+  }
+  .btn-black:hover{
+    background:var(--maindark);
+    color: var(--mainwhite)!important;
+  }
+
+  .cart-icon{
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--mainyellow);
+  }
